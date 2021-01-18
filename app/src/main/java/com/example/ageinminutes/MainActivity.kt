@@ -48,7 +48,9 @@ class MainActivity : AppCompatActivity() {
 
                 tvSelectedDateInMinutes.setText(differenceInMinutes.toString())
             }
-            ,year, month, day)
+            ,year
+            ,month
+            ,day)
 
         dpd.datePicker.setMaxDate(Date().time - 8640000)
         dpd.show()
